@@ -1,15 +1,15 @@
 // 1. find the largest number in an array
 
-// let numbers = [5,12,-3,7,0,25,8,15,-10,20];
+let numbers = [5,12,-3,7,0,25,8,15,-10,20];
 
-// let arr = numbers[0]
+let largest = numbers[0]
 
-// for(let i =1;i<numbers.length;i++){
-//     if(numbers[i]>arr){
-//         arr = numbers[i];
-//         }
-//     }
-// console.log(largest)
+for(let i =1;i<numbers.length;i++){
+    if(numbers[i]>largest){
+        largest = numbers[i];
+        }
+    }
+console.log(largest)
 
 // 2. find the smallest number in an array
 
